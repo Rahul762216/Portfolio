@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  color: black;
+  background-color: rgb(20, 14, 14);
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 10px;
+  width: 100%;
+  padding: 20px 10%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  background-color: rgb(20, 14, 14);
+}
+
+.logo {
+  position: relative;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.navbar a {
+  display: inline-block;
+  font-size: 32px;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  transform: 0.3s;
+  padding: 0 16px;
+  align-items: center;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  color: aqua;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.home {
+  position: relative;
+  width: 80%;
+
+  justify-content: space-between;
+  height: 100vh;
+  background-color: rgb(20, 14, 14);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 30px 10%;
+}
+.home img {
+  position: relative;
+  top: 180px;
+  left: 180px;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  border: 10px solid lightgoldenrodyellow;
+  box-shadow: 0 0 20px lightgoldenrodyellow;
+}
+
+.home-content {
+  max-width: 600px;
+}
+.home-content h3 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 10px 0;
+  letter-spacing: 1px;
+  color: white;
+}
+.home-content h1 {
+  font-size: 70px;
+  color: #0ef;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.home-content h3 span {
+  color: greenyellow;
+}
+
+.home-sc1 a {
+  position: relative;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid aqua;
+  padding: 10px;
+  border-radius: 50px;
+  color: aqua;
+  margin: 5px 15px;
+  border: 3px solid aqua;
+  transition: 0.3ms;
+}
+
+.home-sc1 a:hover {
+  background-color: aqua;
+  box-shadow: 0 0 20px aqua;
+  color: black;
+  font-weight: 700;
+}
+
+.btn-box {
+  display: inline-block;
+  padding: 12px 28px;
+  font-family: sans-serif;
+  color: black;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border-radius: 40px;
+  background-color: aqua;
+  margin: 30px 15px;
+}
+
+.btn-box:hover {
+  font-weight: 500;
+  box-shadow: 0 0 20px aqua;
+  text-decoration: underline;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.about-img img {
+  padding-bottom: 20%;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 500px;
+}
+
+.about-text2 {
+  font-size: 35px;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.about-text h2 {
+  font-size: 60px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.about-text h2 span {
+  color: #0ef;
+}
+
+.about-text h4 {
+  font-size: 30px;
+  font-weight: 600;
+  color: lightskyblue;
+  line-height: 1.8;
+  margin-bottom: 4rem;
+}
+
+p {
+  color: white;
+  letter-spacing: 1px;
+}
+
+.about2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1.5rem;
+  color: white;
+  margin-top: -40px;
+}
+
+h2 {
+  font-size: 60px;
+  color: skyblue;
+}
+
+h2 span {
+  color: #0ef;
+}
+
+.about-img2 {
+  display: block;
+}
+.img3 {
+  height: 50;
+  width: 50%;
+}
+
+.Contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1.5rem;
+  color: white;
+  margin-top: -40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  margin: 20px 0px;
+}
+.input {
+  padding: 12px;
+  margin: 15px;
+  width: 20%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 4px solid white;
+  color: #fff;
+}
+#msg {
+  width: 20%;
+  padding: 10px;
+  margin: 15px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 4px solid white;
+  color: white;
+}
+#send {
+  padding: 10px;
+  width: 20%;
+  margin: 40px;
+  border: none;
+  outline: none;
+}
+#send:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px white;
+}
+
+.btn-box2 {
+  display: inline-block;
+  padding: 12px 28px;
+  font-family: sans-serif;
+  color: black;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border-radius: 40px;
+  background-color: aqua;
+  margin: 30px 650px;
+}
+
+.btn-box2:hover {
+  font-weight: 500;
+  box-shadow: 0 0 10px aqua;
+  text-decoration: underline;
+}
